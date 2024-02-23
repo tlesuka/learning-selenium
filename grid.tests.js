@@ -1,3 +1,6 @@
+// This suite of tests is meant to be run remotely with Selenium Grid. 
+// I used Docker for containerization and run tests in different browsers (Chrome, Firefox and MicrosoftEdge).
+
 const assert = require('assert');
 const { before, after } = require('mocha');
 const {Builder, Key, By, until}  = require('selenium-webdriver');

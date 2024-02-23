@@ -1,3 +1,5 @@
+// This suite of tests is meant to be run locally on chrome browser.
+
 require("chromedriver")
 
 const assert = require('assert');
@@ -7,7 +9,6 @@ const AssertionError = require('assert').AssertionError;
 
 
 describe('Local suite - Chrome', function () {
-
     let driver;
     
     // Before each function connect to chrome driver
